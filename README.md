@@ -49,4 +49,5 @@ thanks for watching my portfolio
  </li>
 </ul>
 
-<img src="http://danielpervaiz.com/github/images/clu.png"/>
+<img src="http://www.danielpervaiz.com/github/images/clu-1.png"/>
+<img src="http://www.danielpervaiz.com/github/images/clu-2.png"/>
