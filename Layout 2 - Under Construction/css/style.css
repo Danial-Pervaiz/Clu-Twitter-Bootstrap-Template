@@ -1,0 +1,252 @@
+/*
+* THEME : CLU Creative Agency & Studio Theme
+* AUTHOR: Crown_technologies
+* FONT FAMILIES USED : Raleway , Ubuntu
+* CONTACT AUTHOR : http://themeforest.net/user/crown_technologies
+*/
+.transition {
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+.containerCenter {
+  margin: 0 auto;
+  display: table;
+  float: none;
+}
+.defaultHeader h2 {
+  line-height: 120px;
+  color: #F4F4F4;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  margin-top: 0px;
+  padding-top: 26px;
+  z-index: -1;
+}
+.defaultHeader h3 {
+  color: #212121;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  position: relative;
+  margin: 0 auto;
+  display: table;
+  float: none;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  top: 126px;
+}
+.defaultHeader h4 {
+  letter-spacing: 4px;
+  color: #7A7A7A;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  z-index: 1;
+  position: relative;
+  top: 121px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  overflow-x: hidden;
+}
+/* ==============================
+
+          default styles 
+
+   ==============================*/
+.DefaultThemeColor {
+  color: #ff695c;
+}
+.imageCenter {
+  margin: 0 auto;
+  display: table;
+  float: none;
+}
+.borderTop {
+  height: 1px;
+  width: 29px;
+  border: 1px solid #000;
+  display: table;
+  margin: 0 auto;
+  float: none;
+}
+.borderBottom {
+  height: 1px;
+  width: 15px;
+  border: 1px solid #000;
+  display: table;
+  margin: 3px auto;
+  float: none;
+}
+.defaultHeadingHeader {
+  height: 276px;
+  width: 100%;
+}
+.defaultHeadingHeader h4 {
+  line-height: 19px;
+  color: #444444;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 95px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.defaultHeadingHeader h2 {
+  line-height: 38px;
+  color: #202020;
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-top: 11px;
+}
+::selection {
+  background: #ff695c;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ff695c;
+  /* Gecko Browsers */
+}
+
+/* ==============================
+
+          Header section 
+
+   ==============================*/
+.header {
+  height: 724px;
+  width: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/header/header1.jpg');
+}
+.header .overlayHeader {
+  height: 724px;
+  width: 100%;
+  position: absolute;
+  background: -webkit-linear-gradient (left, rgba(255,105,92,0.5) , rgba(255,198,0,0.5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(255,105,92,0.5) , rgba(255,198,0,0.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(255,105,92,0.5) , rgba(255,198,0,0.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(255,105,92,0.5) , rgba(255,198,0,0.5)); /* Standard syntax */
+}
+.header .overlayHeader h3 {
+  line-height: 24px;
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  padding-top: 252px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.header .overlayHeader h2 {
+  line-height: 120px;
+  color: #FFFFFF;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.header .overlayHeader button {
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  height: 42px;
+  width: 149px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.header .overlayHeader button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.header .overlayHeader button:nth-child(2) {
+  margin-left: 20px;
+}
+
+/*============================================================
+            
+ Media Queries For Different Mobile Devices and Tablets 
+
+===============================================================*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* header section */
+  .header{
+    height:800px;
+  }
+  .header .overlayHeader {
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* header section */
+  .header{
+    height:800px;
+  }
+  .header .overlayHeader {
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* header section */
+  .header{
+    height:800px;
+  }
+  .header .overlayHeader {
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .header .overlayHeader h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 290px) and (max-width: 480px) {
+  /* header section */
+  .header{
+    height:800px;
+  }
+  .header .overlayHeader {
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .header .overlayHeader h2 {
+    font-size: 40px;
+  }
+}
